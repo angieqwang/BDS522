@@ -1,0 +1,16 @@
+name: "Angie's Website"
+navbar:
+  title: "Angie's Website"
+  left:
+    - text: "Angie's Website"
+      href: index.html
+    - text: "About Angie"
+      href: about.html
+    - text: "List of Angie's Favorite Dogs"
+      href: Dogs.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    css: styles.css
+output_dir: "."

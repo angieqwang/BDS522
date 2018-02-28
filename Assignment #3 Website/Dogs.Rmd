@@ -1,0 +1,10 @@
+---
+title: "List of Angie's Favorite Dogs"
+---
+
+These are my favorite dog breeds.
+
+1. Shiba Inu
+2. Corgi
+3. Husky
+4. Pomeranian

@@ -1,0 +1,14 @@
+---
+title: "Angie's Website"
+---
+
+Hello, this is Angie! Here are some quick facts about me:
+
+Question  | Answer
+------------- | -------------
+Hometown  | Bay Area, California
+Number of siblings  | One
+Favorite ice cream flavor  | Mint chocolate chip
+Languages  | English, Mandarin, French
+
+You can find more information about me under the "About Angie" and "List of Angie's Favorite Dogs" tabs.
