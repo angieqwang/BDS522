@@ -208,13 +208,18 @@ $(document).ready(function () {
 
 
 <p><strong>Data Description:</strong> The datasource is data collected for internal use by Expedia. The name of the data is “Predicting and Optimizing Consumer Response to Product Search Results”. Access to the data was granted to me through the Wharton Customer Analytics Initiative. The data was collected through analytical tools embedded in the Expedia site. These data include information about how the user arrived at Expedia, what promotional pages they have viewed, details of their search query such as dates and number of travelers, which hotels were displayed in search results, which hotels were clicked on and which hotels were purchased.</p>
-<p>This is a large dataset with over 1.5 million rows. I will only be focusing on hotels in Manhattan so that my statistical models run in a reasonable amount of time.</p>
-<p>I will be focusing on two variables:</p>
+<p>I will be focusing on three variables:</p>
 <ul>
+<li>COUNTRY: One of the 4 metropolitan areas covered by this dataset (Cancun, Paris, Budapest, Manhattan)</li>
 <li>TRVLR_REVIEW_CNT: Count of the number of reviews provided by travelers (website users) on the site at the time of the search.</li>
 <li>IS_PROMO_FLAG: Y/N flag to identify if the price shown for the hotel was a promotional offer.</li>
 </ul>
-<p><strong>Methods:</strong> I will be using a simple logistic regression to test my hypothesis that the number of customer reviews a hotel is is associated with how likely the hotel is to be shown for promotional offers.</p>
+<p><strong>Methods:</strong> This is a large dataset with over 1.5 million rows. I will only be focusing on hotels in Manhattan and taking a random sample of 1000 from this subset so that my statistical models run in a reasonable amount of time.</p>
+<p>Since the outcome variable (promotion) is binary, I will be using a simple logistic regression to test my hypothesis that the number of customer reviews a hotel is is associated with how likely the hotel is to be shown for promotional offers.</p>
+<div class="figure">
+<img src="boxplot.png" alt="Here is a boxplot showing the distribution of hotel reviews. We can see that it is heavily right skewed." />
+<p class="caption">Here is a boxplot showing the distribution of hotel reviews. We can see that it is heavily right skewed.</p>
+</div>
 
 
 

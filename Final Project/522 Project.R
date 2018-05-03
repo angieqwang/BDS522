@@ -25,3 +25,5 @@ View(expediasample)
 # run logistic regression 
 summary(glm(promo ~ reviews, data = expediasample, family = "binomial"))
 
+par(mrow(2,1))
+boxplot(expediasample$review, main = "Boxplot of # of Reviews per Hotel")
