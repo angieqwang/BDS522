@@ -1,0 +1,15 @@
+---
+title: "Results"
+---
+
+**Findings:**
+Contrary to my initial intuition, my analysis shows that hotels with more customer reviews are more likely to be shown for promotional offers. For each additional customer review, we can expect to about .038% increase in the odds of being a promoted hotel.
+
+**Discussion:**
+These results are interesting, as they show that the more ratings a hotel has, the more likely it is to be promoted. This finding could be attributed to the fact that these hotels are large. Because they're large, they can accommodate more guests who may write reviews and thus will have more reviews than a smaller hotel that serves less guests. Furthermore, these large hotels probably have more capital than smaller hotels to spend on giving promotional discounts on Expedia. Whether promotion is tied to hotel size can be uncovered through further analysis.
+
+**Limitations:**
+
+* It's not completely clear how some of the variables were coded. For example, there were a lot of \N values, and though I chose to remove them for my analysis, they could have had some sort of importance in Expedia's data. 
+* These findings may not replicate in Expedia's other markets, since the dataset is restricted to Manhattan. Certain unknown features of this market could have produced the results. 
+* Though interesting, these results don't have much business value for Expedia. In the future, it would be more valuable to explore whether promotions and reviews have a bearing on customer conversion rates on the Expedia website. 

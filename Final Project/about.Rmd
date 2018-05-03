@@ -1,0 +1,15 @@
+---
+title: "Data and Methods"
+---
+**Data Description:**
+The datasource is data collected for internal use by Expedia. The name of the data is “Predicting and Optimizing Consumer Response to Product Search Results”. Access to the data was granted to me through the Wharton Customer Analytics Initiative. The data was collected through analytical tools embedded in the Expedia site. These data include information about how the user arrived at Expedia, what promotional pages they have viewed, details of their search query such as dates and number of travelers, which hotels were displayed in search results, which hotels were clicked on and which hotels were purchased.
+
+This is a large dataset with over 1.5 million rows. I will only be focusing on hotels in Manhattan so that my statistical models run in a reasonable amount of time. 
+
+I will be focusing on two variables:
+
+* TRVLR_REVIEW_CNT: Count of the number of reviews provided by travelers (website users) on the site at the time of the search.
+* IS_PROMO_FLAG: Y/N flag to identify if the price shown for the hotel was a promotional offer.
+
+**Methods:**
+I will be using a simple logistic regression to test my hypothesis that the number of customer reviews a hotel is is associated with how likely the hotel is to be shown for promotional offers. 
